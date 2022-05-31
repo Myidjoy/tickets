@@ -1,0 +1,13 @@
+.select-button {
+  width: 100%;
+  background-color: rgb(246, 123, 82);
+  color: #fff;
+  text-transform: uppercase;
+  min-height: 30px;
+  outline: none;
+  border: none;
+
+  &:active {
+    background-color: rgb(221, 111, 75);
+  }
+}

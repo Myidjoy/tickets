@@ -1,0 +1,85 @@
+.card {
+  margin-bottom: 20px;
+
+  .card__header {
+    background: rgb(80, 154, 245);
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+    color: white;
+
+    .card__icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card__total-price {
+      display: flex;
+      justify-content: end;
+
+      .price {
+        font-size: 1.5rem;      
+      }
+    }
+
+    .text {
+      
+      font-weight: bold;
+    }
+  }
+  
+  .card__main {
+    padding: 0 10px;
+
+    .card__line {
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      .change {
+        display: inline-block;
+        margin: 0 10px;
+        color: orange;
+      }
+
+      .card__line_elem {        
+        height: 1px;
+        flex: 1;
+        background-color: black;        
+      }
+    }
+
+    .forward,
+    .back {
+      .card__airport-info {
+        border-bottom: 1px solid silver;
+        padding: 10px 5px;
+        display: flex;  
+        align-items: center;      
+        .color {
+          margin: 0 10px 0 5px;
+          color: rgb(73, 127, 160);
+        }
+      }
+  
+      .card__time-info {
+        padding: 10px 5px;
+        display: flex;
+        justify-content: space-between;
+
+        .time {
+          font-size: 1.5rem;
+          span {
+            display: inline-block;
+            margin: 0 2px;
+          }
+        }
+      }
+      .card__carrier {
+        padding: 10px 5px;
+      }
+    }
+  }
+}
